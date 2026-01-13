@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Data & model files (large)
+data/**
+!data/README.md
+models/**
+!models/README.md
+
+# Training outputs
+runs/
